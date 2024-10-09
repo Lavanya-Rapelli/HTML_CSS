@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>TechFusion 2024</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        header {
+            text-align: center;
+        }
+
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>TechFusion 2024</h1>
+    </header>
+    <fieldset>
+    <form id="registrationForm" action="#" method="post">       
+       
+            <h2>Personal Details</h2>
+                <label for="firstname">Enter Your First Name:</label>
+                <input type="text" id="name" name="username" required placeholder="Ex:Lavanya">
+                <br>
+                <label for="secondname">Enter Your Second Name:</label>
+                <input type="text" id="name" name="username" required placeholder="Ex:Rapelli">
+                <br>
+                <label for="email">Enter Your Email</label>
+                <input type="email" id="email" name="email" required placeholder="Ex:lavanyarapelli555@gmail.com">   
+                <br>
+                <label for ="phoneNumber">Enter Your Phone Number</label>
+                <input type="tel" id="phoneNumber" name="phoneNumber" pattern="[0-9]+" required placeholder="Ex:1234567890">
+    </form>
+    </fieldset>
+    <br/>
+<div>
+    <fieldset>
+        <legend>Profile Type:</legend>
+      
+        <div>
+          <input type="radio" id="Professional" name="Professional" value="huey" checked />
+          <label for="Professional">Professional</label>
+        </div>
+      
+        <div>
+          <input type="radio" id="Student" name="Professional" value="dewey" />
+          <label for="Student;">Student</label>
+        </div>
+      
+        <div>
+          <input type="radio" id="Enthusiast" name="Professional" value="louie" />
+          <label for="Enthusiast">Enthusiast</label>
+        </div>
+    </fieldset>
+</div>
+<br/>  
+<div>
+    <fieldset>
+    <label for="Area of intrest-select">Choose Area of Intrest:</label>
+
+    <select name="Area of intrest" id="Area of intrest-select">
+    <option value="">--Please choose an option--</option>
+    <option value="dog">Web Development</option>
+    <option value="cat">Data Science</option>
+    <option value="hamster">Cloud Computing</option>
+    <option value="parrot">Artificial Intelligence</option>
+    <option value="spider">Cybersecurity</option>
+    </select>
+    </fieldset>
+</div>
+<br/>
+<div>
+    <fieldset>
+    <label for="Workshops-select">Select workshops:</label>
+
+    <select name="Workshops" id="Workshops-select">
+    <option value="">--Please choose an option--</option>
+    <option value="dog">Intro to Quantum Computing</option>
+    <option value="cat">Virtual Reality on the Web</option>
+    <option value="hamster">Cybersecurity 101</option>
+    <option value="parrot">AI in Medical Imaging</option>
+    </select>
+    </fieldset>
+</div>
+<br/>
+<div>
+    <label for="story">Additional information :</label>
+</div>
+<div>
+<textarea id="story" name="story" rows="5" cols="33">
+</textarea>
+</div>
+<br/>
+<div>
+    <fieldset>
+        <legend>Preferred Days:</legend>
+      
+        <div>
+          <input type="checkbox" id="Day 1" name="Day 1" checked />
+          <label for="Day 1">Day 1</label>
+        </div>
+      
+        <div>
+          <input type="checkbox" id="Day 2" name="Day 2" />
+          <label for="Day 2">Day 2</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="Day 3" name="Day 3" />
+            <label for="Day 3">Day 3</label>
+        </div> 
+    </fieldset>   
+</div>
+<br/>
+<div>
+    <fieldset>
+        <legend>Meal Preference:</legend>
+      
+        <div>
+          <input type="radio" id="Professional" name="Vegeterian" value="huey" checked />
+          <label for="Professional"> Vegeterian</label>
+        </div>
+      
+        <div>
+          <input type="radio" id="Student" name="Vegeterian" value="dewey" />
+          <label for="Student;">Non-vegeterian</label>
+        </div>
+      
+        <div>
+          <input type="radio" id="Enthusiast" name="Vegeterian" value="louie" />
+          <label for="Enthusiast">Vegan</label>
+        </div>
+
+        <div>
+            <input type="radio" id="Enthusiast" name="Vegeterian" value="louie" />
+            <label for="Enthusiast">No Preference</label>
+          </div>
+    </fieldset>
+</div>
+<br/>
+<div>
+    <input type="checkbox" id="termsConditions" name="termsConditions" required>
+    <label for="termsConditions">I agree to the terms and conditions</label>
+</div>
+<br/>
+<div>
+    <button type="submit">Submit</button>
+</div>
+
+</body>
+</html>

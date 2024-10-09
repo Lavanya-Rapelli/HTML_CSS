@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+    /* body{
+        background-color: aqua;
+    }
+    p{
+     font-size: 50px;
+     font-weight: bolder;
+    }
+    /* @media all and (min-width: 500px)and (max-width: 768px){
+        body{
+            background-color: blue;
+        }
+    } */
+    /* @media all and (max-width: 500px){
+        body{
+            background-color: blue;
+        }
+        p{
+        font-size:30px ;
+        /* font-weight: lighter; */
+        /* }
+    }
+    @media  all and (max-width: 300px){
+        body{
+            background-color: rgb(200, 255, 0);
+        }
+        p{
+        font-style: italic;
+        font-size:16px ;
+        }
+    } */ 
+    /* div{
+        width:80%;
+        height:50vh;
+    }
+    div>img{
+        max-width: 100%;
+        max-height: 100%;
+    }
+    @media all and (max-width:500px){
+        div{
+            display: none;
+        }    
+    }
+    @media all and (max-width:300px){
+        div{
+            display: block;
+        }
+    } */
+    /* #box{
+        width:60%;
+        height:40vh;
+        background-color: orange;
+        display: flex;        
+    }
+    #box>div{
+        border:2px solid;
+        width: 20%;
+        height: 50%;
+    }
+    @media all and (min-width:300px) and (max-width:500px){
+        #box>div:nth-child(4){
+            display: none;
+        }
+    }
+    @media all and (max-width:299px){
+        #box>div:nth-child(4),#box>div:nth-child(3),#box>div:nth-child(2){
+            display: none;
+        } 
+    } */
+    /* #box{
+        height:200px;
+        width:200px;
+        border: 2px solid;
+        background-image: url("https://masai-website-images.s3.ap-south-1.amazonaws.com/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+    @media all and (min-width:600px) and (max-width:1000px){
+        #box{
+            background-image: url("https://masai-website-images.s3.ap-south-1.amazonaws.com/Rectangle_427_637d69bb57.png");
+        }
+    }
+    @media all and (max-width:598px){
+        #box{
+            background-image: url("https://masai-website-images.s3.ap-south-1.amazonaws.com/amrish_rau_pine_labs_144e5e587c.jpg");
+        }
+    } */
+    #box{
+        height:60vh;
+        width:80%;
+        border: 2px solid;
+        display:grid;
+        grid-template-areas: "a1 a2 a3"
+                             "a4 a5 a5";
+        /* grid-template-columns: repeat(4,1fr); */
+        gap:2%;
+    }
+    #box>div{
+        border: 2px solid;
+        height: 100%;
+        width: 100%;
+        gap: 2%;
+    }
+    #box>div:nth-child(1){
+        grid-area: a1;
+        background-color: yellow;
+    } 
+      #box>div:nth-child(2){
+        grid-area: a2;
+        background-color:red;
+    }    
+      #box>div:nth-child(3){
+        grid-area: a3;
+        background-color:blue;
+    }    
+      #box>div:nth-child(4){
+        grid-area: a4;
+        background-color:pink;
+    }    
+      #box>div:nth-child(5){
+        grid-area: a5;
+        background-color:purple;
+    }        
+    @media all and (min-width:300px) and (max-width:500px){
+        #box{
+            grid-template-areas: "a1 a2 a3"
+                             "a1 a4 a5";
+
+        }
+    }
+    @media all and (max-width:299px){
+        #box{
+            grid-template-areas: "a5 a2 a3"
+                             "a1 a4 a5";
+        }
+    }
+  </style>
+</head>
+<body>
+    <!-- <div>
+        <img src="https://img.jagranjosh.com/images/2023/December/9122023/ayodhya-ram-mandir-2023.jpg" alt="ayodhya-ram-mandir">
+    </div> -->
+    <!-- <div id="box">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div> -->
+    <!-- <div id="box"></div> -->
+  <div id="box">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+</body>
+</html>
